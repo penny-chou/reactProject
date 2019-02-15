@@ -1,0 +1,39 @@
+.ms-table-default {
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    text-align: center;
+  }
+
+  .ant-table-thead > tr > th:first-child,
+  .ant-table-tbody > tr > td:first-child {
+    text-align: left;
+  }
+
+  &.ms-table-default-row-select {
+    .ant-table-thead > tr > th:first-child,
+    .ant-table-tbody > tr > td:first-child {
+      text-align: center;
+    }
+
+    .ant-table-thead > tr > th:nth-child(2),
+    .ant-table-tbody > tr > td:nth-child(2) {
+      text-align: left;
+    }
+  }
+
+  .ant-table-thead > tr > th:last-child,
+  .ant-table-tbody > tr > td:last-child {
+    text-align: right;
+  }
+}
+
+.ms-modal-default {
+  .ant-table-placeholder {
+    padding-top: 16px !important;
+    height: inherit !important;
+  }
+
+  .ant-table-body {
+    height: inherit !important;
+  }
+}

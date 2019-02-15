@@ -1,0 +1,16 @@
+
+.layout {
+  position: relative;
+  background-color: #fff;
+  .logo{
+    position: relative;
+    width: "100px";
+  }
+  .user{
+    z-index: 1;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    color: "#fff";
+  }
+} 

@@ -1,0 +1,19 @@
+.mySider{
+  .sider-title {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #002140;
+  }
+  .myMenu{
+    .menuItem{
+      background-color: grey;
+    }
+  }
+}
